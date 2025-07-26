@@ -3,6 +3,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=habiba-tech&label=Profile%20views&color=0e75b6&style=flat" alt="habiba-tech" /> </p>
 
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=habiba-tech&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+
+---
+[![](https://visitcount.itsvg.in/api?id=habiba-tech&icon=0&color=10)](https://visitcount.itsvg.in)
+
+
 - 🔭 I’m currently working on **CyberGuard App**
 
 - 🌱 I’m currently learning **Java,DSA,Js**
@@ -25,11 +32,6 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=habiba-tech&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=habiba-tech&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=habiba-tech&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
----
-[![](https://visitcount.itsvg.in/api?id=habiba-tech&icon=0&color=10)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 <!--
