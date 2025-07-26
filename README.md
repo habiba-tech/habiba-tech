@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Java,DSA,Js**
 
-- 📫 How to reach me **siddiquiummehabiba**
+- 📫 How to reach me **siddiquiummehabiba41@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
