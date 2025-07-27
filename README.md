@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **CyberGuard App**
 
-- 🌱 I’m currently learning **Java,DSA,Js**
+- 🌱 I’m currently learning **Java**
 
 - 📫 How to reach me **siddiquiummehabiba41@gmail.com**
 
