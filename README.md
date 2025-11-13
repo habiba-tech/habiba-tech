@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=habiba-tech&label=Profile%20views&color=0e75b6&style=flat" alt="habiba-tech" /> </p>
 
-- 🔭 I’m currently working on **CyberGuard App** <href=https://cyberguardapp.vercel.app/
+- 🔭 I’m currently working on **[CyberGuard App] (https://cyberguardapp.vercel.app/)**
 
 - 🌱 I’m currently learning **Java**
 
