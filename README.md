@@ -5,7 +5,7 @@
 
 -🔭 I’m currently working on <a href="https://cyberguard-app.vercel.app" target="_blank">CyberGuard App</a>
 
-- 🌱 I’m currently learning **FamiPet**
+- 🌱 I’m currently learning **FASTAPI**
 
 - 📫 How to reach me **siddiquiummehabiba41@gmail.com**
 
