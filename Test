@@ -1,65 +1,60 @@
-FamiPet STEP 6 — APPOINTMENTS + AUTOMATIC REMINDERS
+FamiPet STEP 7 — COMMUNITY IMAGE UPLOAD
 
 🚨 FRONTEND FREEZE
 
-Do NOT redesign Appointment or Reminder pages.
-
-Appointment Bug
+Do NOT redesign Community.
 
 Current problem:
 
-«Newly added appointments are not being saved to the database.»
+«Users cannot attach images while posting.»
 
 Trace:
 
-Appointment Form
+Community Post
 ↓
-API
+Select Image
 ↓
-Route
+FormData
 ↓
-Controller
+Backend Upload
 ↓
-Appointment Model
+Image Storage
+↓
+Image URL
+↓
+Community Model
 ↓
 MongoDB
+↓
+Community Page
+
+Inspect the existing image-storage system.
+
+If the project already uses Cloudinary/Multer/local upload, use it.
 
 Check:
 
-- Form fields
-- Date/time
-- User ID
-- Pet ID
-- Request body
-- API URL
-- HTTP method
-- JWT
-- Controller
-- Model
-- Validation
-- MongoDB save
+- File input
+- FormData
+- multipart/form-data
+- Upload middleware
+- File field name
+- Image URL
+- Community controller
+- Community model
+- MongoDB
+- Frontend rendering
 
-Verify directly that the appointment exists in MongoDB.
+Do not expose API secrets.
 
-Automatic Reminder
+Test:
 
-When an appointment is successfully created:
-
-Appointment Saved
-↓
-Automatically Create Reminder
-↓
-Link User + Pet
-↓
-Save Reminder
-↓
-Display on Reminders Page
-
-Do not require manual reminder creation.
-
-Avoid duplicate reminders.
-
-Test appointment creation and confirm the reminder is automatically created.
+1. Create post without image
+2. Create post with image
+3. Verify image uploads
+4. Verify URL is stored
+5. Refresh page
+6. Verify image still appears
 
 Fix all errors.
 
