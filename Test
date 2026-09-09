@@ -1,48 +1,18 @@
-FamiPet STEP 5 — MY PETS + ADOPTION + QR
+FamiPet STEP 6 — APPOINTMENTS + AUTOMATIC REMINDERS
 
 🚨 FRONTEND FREEZE
 
-Do NOT redesign My Pets or Adoption pages.
+Do NOT redesign Appointment or Reminder pages.
 
-My Pets
+Appointment Bug
 
-Verify:
+Current problem:
 
-- Add pet
-- Edit pet
-- Delete pet
-- View pet
-- Save pet to MongoDB
-
-Automatic QR ID
-
-When a new pet is added:
-
-Add Pet
-↓
-Save Pet
-↓
-Generate Unique Pet ID
-↓
-Generate QR
-↓
-Store/link QR
-↓
-Display in My Pets
-
-Every pet must receive a unique QR ID.
-
-Test with multiple pets and confirm IDs are different.
-
-Adoption
-
-Current bug:
-
-«Cannot add a new pet for adoption.»
+«Newly added appointments are not being saved to the database.»
 
 Trace:
 
-Adoption Form
+Appointment Form
 ↓
 API
 ↓
@@ -50,24 +20,46 @@ Route
 ↓
 Controller
 ↓
-Pet Model
+Appointment Model
 ↓
 MongoDB
-↓
-Adoption Page
 
 Check:
 
-- Form data
-- API endpoint
-- Authentication
+- Form fields
+- Date/time
+- User ID
+- Pet ID
+- Request body
+- API URL
+- HTTP method
+- JWT
 - Controller
 - Model
 - Validation
-- Image upload
-- MongoDB
+- MongoDB save
 
-The pet must actually be stored and appear on the Adoption page.
+Verify directly that the appointment exists in MongoDB.
+
+Automatic Reminder
+
+When an appointment is successfully created:
+
+Appointment Saved
+↓
+Automatically Create Reminder
+↓
+Link User + Pet
+↓
+Save Reminder
+↓
+Display on Reminders Page
+
+Do not require manual reminder creation.
+
+Avoid duplicate reminders.
+
+Test appointment creation and confirm the reminder is automatically created.
 
 Fix all errors.
 
