@@ -1,0 +1,74 @@
+FamiPet STEP 5 — MY PETS + ADOPTION + QR
+
+🚨 FRONTEND FREEZE
+
+Do NOT redesign My Pets or Adoption pages.
+
+My Pets
+
+Verify:
+
+- Add pet
+- Edit pet
+- Delete pet
+- View pet
+- Save pet to MongoDB
+
+Automatic QR ID
+
+When a new pet is added:
+
+Add Pet
+↓
+Save Pet
+↓
+Generate Unique Pet ID
+↓
+Generate QR
+↓
+Store/link QR
+↓
+Display in My Pets
+
+Every pet must receive a unique QR ID.
+
+Test with multiple pets and confirm IDs are different.
+
+Adoption
+
+Current bug:
+
+«Cannot add a new pet for adoption.»
+
+Trace:
+
+Adoption Form
+↓
+API
+↓
+Route
+↓
+Controller
+↓
+Pet Model
+↓
+MongoDB
+↓
+Adoption Page
+
+Check:
+
+- Form data
+- API endpoint
+- Authentication
+- Controller
+- Model
+- Validation
+- Image upload
+- MongoDB
+
+The pet must actually be stored and appear on the Adoption page.
+
+Fix all errors.
+
+Then STOP.
